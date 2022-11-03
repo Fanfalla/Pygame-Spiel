@@ -13,7 +13,7 @@ def main():
     #Cookie
     cookie = pygame.image.load("Cookie.jpg")
     cookie = pygame.transform.scale(cookie, (100,100))
-    screen.blit(cookie, (300, 300))
+    screen.blit(cookie, (400, 400))
     
     Cookies = 0
     #Button
