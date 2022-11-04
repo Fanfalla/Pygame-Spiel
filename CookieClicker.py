@@ -13,13 +13,14 @@ def main():
     #Cookie
     cookie = pygame.image.load("Cookie.jpg")
     cookie = pygame.transform.scale(cookie, (100,100))
-    screen.blit(cookie, (400, 400))
+    screen.blit(cookie, (200, 200))
     
     Cookies = 0
     #Button
     quit = button(screen, (200, 200), "Quit")
     anzeige = button(screen, (0, 0), ("Cookies " + str(Cookies)))
     click = button(screen, (500,0), "Click")
+    test = button(screen, (300,300), "Test")
 
     running = True
     while running:
